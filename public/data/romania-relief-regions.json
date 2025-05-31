@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carpații Orientali",
+        "type": "mountains",
+        "elevation": "2303",
+        "id": "eastern-carpathians"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.8, 47.8], [26.5, 47.4], [26.2, 46.2], [25.4, 45.6], [25.0, 46.1], [25.2, 47.1], [25.8, 47.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carpații Meridionali",
+        "type": "mountains",
+        "elevation": "2544",
+        "id": "southern-carpathians"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.4, 45.6], [24.8, 45.4], [23.2, 45.3], [22.4, 45.1], [22.7, 45.5], [23.8, 45.7], [24.7, 45.8], [25.4, 45.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carpații Occidentali",
+        "type": "mountains",
+        "elevation": "1849",
+        "id": "western-carpathians"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.8, 45.7], [22.7, 45.5], [22.3, 46.2], [22.5, 47.1], [23.2, 47.2], [24.0, 47.0], [23.8, 45.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Podișul Transilvaniei",
+        "type": "plateau",
+        "elevation": "600",
+        "id": "transylvanian-plateau"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.0, 46.1], [24.7, 45.8], [23.8, 45.7], [24.0, 47.0], [25.2, 47.1], [25.0, 46.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Podișul Moldovei",
+        "type": "plateau",
+        "elevation": "500",
+        "id": "moldavian-plateau"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.5, 47.4], [27.8, 47.2], [27.6, 46.0], [26.2, 46.2], [26.5, 47.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Câmpia Română",
+        "type": "plain",
+        "elevation": "100",
+        "id": "romanian-plain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.2, 46.2], [27.6, 46.0], [28.0, 44.0], [24.8, 43.5], [23.2, 43.7], [22.4, 45.1], [23.2, 45.3], [24.8, 45.4], [25.4, 45.6], [26.2, 46.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Câmpia de Vest",
+        "type": "plain",
+        "elevation": "120",
+        "id": "western-plain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.3, 46.2], [20.5, 46.1], [20.3, 47.2], [22.5, 47.1], [22.3, 46.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delta Dunării",
+        "type": "delta",
+        "elevation": "0",
+        "id": "danube-delta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.0, 44.0], [28.8, 45.0], [29.7, 45.2], [29.4, 44.6], [28.0, 44.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dobrogea",
+        "type": "plateau",
+        "elevation": "300",
+        "id": "dobrogea"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.6, 46.0], [28.7, 46.0], [28.8, 45.0], [28.0, 44.0], [27.6, 46.0]]]
+      }
+    }
+  ]
+} 

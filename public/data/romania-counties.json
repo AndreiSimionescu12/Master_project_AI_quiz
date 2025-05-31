@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bucuresti",
+        "code": "B",
+        "id": "bucharest"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.0, 44.4], [26.2, 44.4], [26.2, 44.5], [26.0, 44.5], [26.0, 44.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cluj",
+        "code": "CJ",
+        "id": "cluj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.3, 46.6], [23.9, 46.6], [23.9, 47.1], [23.3, 47.1], [23.3, 46.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iasi",
+        "code": "IS",
+        "id": "iasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.2, 47.0], [27.8, 47.0], [27.8, 47.5], [27.2, 47.5], [27.2, 47.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Constanta",
+        "code": "CT",
+        "id": "constanta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.0, 43.8], [28.8, 43.8], [28.8, 44.5], [28.0, 44.5], [28.0, 43.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Timis",
+        "code": "TM",
+        "id": "timis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[20.8, 45.5], [21.8, 45.5], [21.8, 46.2], [20.8, 46.2], [20.8, 45.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brasov",
+        "code": "BV",
+        "id": "brasov"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.2, 45.4], [25.8, 45.4], [25.8, 46.0], [25.2, 46.0], [25.2, 45.4]]]
+      }
+    }
+  ]
+} 

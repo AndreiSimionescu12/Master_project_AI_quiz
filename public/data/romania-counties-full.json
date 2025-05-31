@@ -1,0 +1,509 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alba",
+        "code": "AB",
+        "id": "alba"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.5, 46.1], [23.6, 46.1], [23.6, 46.2], [23.5, 46.2], [23.5, 46.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arad",
+        "code": "AR",
+        "id": "arad"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.5, 46.2], [21.6, 46.2], [21.6, 46.3], [21.5, 46.3], [21.5, 46.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arges",
+        "code": "AG",
+        "id": "arges"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.8, 45.0], [24.9, 45.0], [24.9, 45.1], [24.8, 45.1], [24.8, 45.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bacau",
+        "code": "BC",
+        "id": "bacau"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.7, 46.5], [26.8, 46.5], [26.8, 46.6], [26.7, 46.6], [26.7, 46.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bihor",
+        "code": "BH",
+        "id": "bihor"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.0, 47.0], [22.1, 47.0], [22.1, 47.1], [22.0, 47.1], [22.0, 47.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bistrita-Nasaud",
+        "code": "BN",
+        "id": "bistrita-nasaud"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.5, 47.1], [24.6, 47.1], [24.6, 47.2], [24.5, 47.2], [24.5, 47.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Botosani",
+        "code": "BT",
+        "id": "botosani"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.7, 47.7], [26.8, 47.7], [26.8, 47.8], [26.7, 47.8], [26.7, 47.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Brasov",
+        "code": "BV",
+        "id": "brasov"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.5, 45.6], [25.6, 45.6], [25.6, 45.7], [25.5, 45.7], [25.5, 45.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Braila",
+        "code": "BR",
+        "id": "braila"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.4, 45.2], [27.5, 45.2], [27.5, 45.3], [27.4, 45.3], [27.4, 45.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bucuresti",
+        "code": "B",
+        "id": "bucuresti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.1, 44.4], [26.15, 44.4], [26.15, 44.45], [26.1, 44.45], [26.1, 44.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buzau",
+        "code": "BZ",
+        "id": "buzau"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.8, 45.2], [26.9, 45.2], [26.9, 45.3], [26.8, 45.3], [26.8, 45.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caras-Severin",
+        "code": "CS",
+        "id": "caras-severin"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.8, 45.0], [21.9, 45.0], [21.9, 45.1], [21.8, 45.1], [21.8, 45.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Calarasi",
+        "code": "CL",
+        "id": "calarasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.0, 44.2], [27.1, 44.2], [27.1, 44.3], [27.0, 44.3], [27.0, 44.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cluj",
+        "code": "CJ",
+        "id": "cluj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.6, 46.8], [23.7, 46.8], [23.7, 46.9], [23.6, 46.9], [23.6, 46.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Constanta",
+        "code": "CT",
+        "id": "constanta"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.4, 44.2], [28.5, 44.2], [28.5, 44.3], [28.4, 44.3], [28.4, 44.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Covasna",
+        "code": "CV",
+        "id": "covasna"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.9, 45.8], [26.0, 45.8], [26.0, 45.9], [25.9, 45.9], [25.9, 45.8]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dambovita",
+        "code": "DB",
+        "id": "dambovita"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.5, 44.9], [25.6, 44.9], [25.6, 45.0], [25.5, 45.0], [25.5, 44.9]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dolj",
+        "code": "DJ",
+        "id": "dolj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.5, 44.1], [23.6, 44.1], [23.6, 44.2], [23.5, 44.2], [23.5, 44.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galati",
+        "code": "GL",
+        "id": "galati"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.7, 45.7], [27.8, 45.7], [27.8, 45.8], [27.7, 45.8], [27.7, 45.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giurgiu",
+        "code": "GR",
+        "id": "giurgiu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.0, 43.9], [26.1, 43.9], [26.1, 44.0], [26.0, 44.0], [26.0, 43.9]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gorj",
+        "code": "GJ",
+        "id": "gorj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.2, 45.0], [23.3, 45.0], [23.3, 45.1], [23.2, 45.1], [23.2, 45.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harghita",
+        "code": "HR",
+        "id": "harghita"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.7, 46.6], [25.8, 46.6], [25.8, 46.7], [25.7, 46.7], [25.7, 46.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hunedoara",
+        "code": "HD",
+        "id": "hunedoara"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.0, 45.7], [23.1, 45.7], [23.1, 45.8], [23.0, 45.8], [23.0, 45.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ialomita",
+        "code": "IL",
+        "id": "ialomita"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.0, 44.6], [27.1, 44.6], [27.1, 44.7], [27.0, 44.7], [27.0, 44.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Iasi",
+        "code": "IS",
+        "id": "iasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.3, 47.2], [27.4, 47.2], [27.4, 47.3], [27.3, 47.3], [27.3, 47.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ilfov",
+        "code": "IF",
+        "id": "ilfov"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.0, 44.5], [26.1, 44.5], [26.1, 44.6], [26.0, 44.6], [26.0, 44.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maramures",
+        "code": "MM",
+        "id": "maramures"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.0, 47.6], [24.1, 47.6], [24.1, 47.7], [24.0, 47.7], [24.0, 47.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mehedinti",
+        "code": "MH",
+        "id": "mehedinti"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.6, 44.4], [22.7, 44.4], [22.7, 44.5], [22.6, 44.5], [22.6, 44.4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mures",
+        "code": "MS",
+        "id": "mures"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.6, 46.5], [24.7, 46.5], [24.7, 46.6], [24.6, 46.6], [24.6, 46.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Neamt",
+        "code": "NT",
+        "id": "neamt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.3, 47.0], [26.4, 47.0], [26.4, 47.1], [26.3, 47.1], [26.3, 47.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olt",
+        "code": "OT",
+        "id": "olt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.4, 44.2], [24.5, 44.2], [24.5, 44.3], [24.4, 44.3], [24.4, 44.2]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prahova",
+        "code": "PH",
+        "id": "prahova"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.0, 45.1], [26.1, 45.1], [26.1, 45.2], [26.0, 45.2], [26.0, 45.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Satu Mare",
+        "code": "SM",
+        "id": "satu-mare"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22.7, 47.7], [22.8, 47.7], [22.8, 47.8], [22.7, 47.8], [22.7, 47.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salaj",
+        "code": "SJ",
+        "id": "salaj"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[23.0, 47.1], [23.1, 47.1], [23.1, 47.2], [23.0, 47.2], [23.0, 47.1]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sibiu",
+        "code": "SB",
+        "id": "sibiu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.0, 45.9], [24.1, 45.9], [24.1, 46.0], [24.0, 46.0], [24.0, 45.9]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suceava",
+        "code": "SV",
+        "id": "suceava"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.8, 47.5], [25.9, 47.5], [25.9, 47.6], [25.8, 47.6], [25.8, 47.5]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Teleorman",
+        "code": "TR",
+        "id": "teleorman"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[25.2, 43.9], [25.3, 43.9], [25.3, 44.0], [25.2, 44.0], [25.2, 43.9]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Timis",
+        "code": "TM",
+        "id": "timis"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[21.3, 45.7], [21.4, 45.7], [21.4, 45.8], [21.3, 45.8], [21.3, 45.7]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tulcea",
+        "code": "TL",
+        "id": "tulcea"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[28.7, 45.0], [28.8, 45.0], [28.8, 45.1], [28.7, 45.1], [28.7, 45.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vaslui",
+        "code": "VS",
+        "id": "vaslui"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[27.6, 46.6], [27.7, 46.6], [27.7, 46.7], [27.6, 46.7], [27.6, 46.6]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valcea",
+        "code": "VL",
+        "id": "valcea"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[24.3, 45.0], [24.4, 45.0], [24.4, 45.1], [24.3, 45.1], [24.3, 45.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vrancea",
+        "code": "VN",
+        "id": "vrancea"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[26.8, 45.7], [26.9, 45.7], [26.9, 45.8], [26.8, 45.8], [26.8, 45.7]]]
+      }
+    }
+  ]
+} 
