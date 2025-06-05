@@ -30,11 +30,11 @@ export default function Home() {
         <div className="grid gap-8 max-w-4xl mx-auto">
           <div className="text-center">
             <h1 className="text-3xl font-bold text-slate-900 mb-4">
-              Învață Geografia și Istoria României pe Hartă
+              GeoBacAI - Geografia României
             </h1>
             <p className="text-slate-600 max-w-2xl mx-auto">
               Alege una dintre regiunile de relief ale României pentru a genera întrebări
-              personalizate pentru Bacalaureat la Geografie sau Istorie.
+              personalizate pentru Bacalaureat la Geografie.
             </p>
           </div>
 

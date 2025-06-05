@@ -270,49 +270,7 @@ export default function SubjectSelection({
             </div>
           </button>
 
-          <button
-            onClick={() => handleSubjectSelect("Istorie")}
-            className={`p-4 rounded-lg border text-left ${
-              selectedSubject === "Istorie"
-                ? "border-blue-500 bg-blue-50 text-blue-700"
-                : "border-slate-200 hover:border-slate-300 text-slate-700"
-            }`}
-          >
-            <div className="flex items-center">
-              <span
-                className={`mr-3 flex-shrink-0 rounded-full p-1 ${
-                  selectedSubject === "Istorie"
-                    ? "bg-blue-500"
-                    : "bg-slate-200"
-                }`}
-              >
-                <svg
-                  className={`h-5 w-5 ${
-                selectedSubject === "Istorie"
-                      ? "text-white"
-                      : "text-slate-500"
-                  }`}
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-              </span>
-              <div>
-                <div className="font-medium">Istorie</div>
-                <div className="text-sm text-slate-500">
-                  Evenimente istorice și personalități
-                </div>
-              </div>
-            </div>
-          </button>
+
         </div>
 
         {/* Afișăm mesajul de eroare dacă există */}

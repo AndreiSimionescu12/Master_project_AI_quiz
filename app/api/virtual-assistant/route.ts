@@ -37,7 +37,7 @@ export async function POST(request: Request) {
       // Construim un prompt structurat pentru Gemini
       let prompt = `
         Ești un asistent virtual educațional pentru elevi care se pregătesc pentru Bacalaureat în România.
-        Rolul tău este să ajuți elevii să înțeleagă mai bine materia legată de geografie și istorie, folosind un ton prietenos și încurajator.
+        Rolul tău este să ajuți elevii să înțeleagă mai bine materia legată de geografie, folosind un ton prietenos și încurajator.
         
         Context despre întrebarea din quiz:
         ${context}
@@ -126,7 +126,7 @@ export async function POST(request: Request) {
       // Verificăm cuvinte cheie în întrebare pentru a genera răspunsuri relevante
       if (query.toLowerCase().includes('explica') || query.toLowerCase().includes('explică') || 
           query.toLowerCase().includes('detalii') || query.toLowerCase().includes('mai mult')) {
-        response = `Sigur, pot să-ți explic mai detaliat. ${explanationContext.replace('Explicație: ', '')} Această informație este importantă pentru înțelegerea corectă a geografiei/istoriei României.`;
+        response = `Sigur, pot să-ți explic mai detaliat. ${explanationContext.replace('Explicație: ', '')} Această informație este importantă pentru înțelegerea corectă a geografiei României.`;
       }
       else if (query.toLowerCase().includes('de ce') || query.toLowerCase().includes('motivul')) {
         response = `Motivul este legat de specificul regiunii. ${explanationContext.replace('Explicație: ', '')} Acest aspect este relevant pentru examenul de Bacalaureat.`;

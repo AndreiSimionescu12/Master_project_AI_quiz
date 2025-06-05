@@ -1,17 +1,17 @@
-# România Quiz AI
+# GeoBacAI - Geografia României
 
-O aplicație educațională interactivă care ajută elevii să se pregătească pentru examenul de Bacalaureat prin intermediul quizurilor specifice fiecărui județ din România.
+O aplicație educațională interactivă care ajută elevii să se pregătească pentru examenul de Bacalaureat la Geografie prin intermediul quizurilor specifice fiecărui județ din România.
 
 ## Descriere
 
-România Quiz AI este o aplicație web modernă care permite utilizatorilor să:
+GeoBacAI este o aplicație web modernă care permite utilizatorilor să:
 
 - Selecteze un județ de pe o hartă interactivă detaliată a României
-- Aleagă un subiect (Geografie sau Istorie)
+- Aleagă subiectul Geografie
 - Primească întrebări personalizate generate de AI, bazate pe programa BAC
 - Verifice răspunsurile și să primească explicații detaliate
 
-Aplicația este destinată elevilor de liceu, profesorilor și persoanelor care doresc să-și îmbunătățească cunoștințele despre geografia și istoria României.
+Aplicația este destinată elevilor de liceu, profesorilor și persoanelor care doresc să-și îmbunătățească cunoștințele despre geografia României.
 
 ## Tehnologii utilizate
 
@@ -33,8 +33,8 @@ Aplicația este destinată elevilor de liceu, profesorilor și persoanelor care 
 
 1. Clonează repository-ul:
    ```
-   git clone https://github.com/username/romania-quiz-mapbox.git
-   cd romania-quiz-mapbox
+   git clone https://github.com/username/geobacai.git
+   cd geobacai
    ```
 
 2. Instalează dependențele:
@@ -60,7 +60,7 @@ Aplicația este destinată elevilor de liceu, profesorilor și persoanelor care 
 
 1. Deschide aplicația în browser
 2. Selectează un județ de pe harta României
-3. Alege disciplina (Geografie sau Istorie)
+3. Alege disciplina Geografie
 4. Răspunde la întrebările generate
 5. Verifică răspunsurile și vezi explicațiile pentru răspunsurile incorecte
 6. La final, vei vedea scorul obținut și vei putea încerca un nou quiz

@@ -342,7 +342,7 @@ export default function RomaniaMap({ onCountySelect }: RomaniaMapProps) {
 
       {/* Legendă */}
       <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg shadow-md p-3 z-10 border border-slate-100">
-        <h3 className="text-sm font-medium mb-1">România Quiz</h3>
+        <h3 className="text-sm font-medium mb-1">GeoBacAI</h3>
         <p className="text-xs text-gray-600">Selectează un județ pentru a începe</p>
         {selectedCounty && (
           <div className="mt-2 pt-2 border-t border-gray-200">

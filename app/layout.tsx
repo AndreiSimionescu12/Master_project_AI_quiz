@@ -12,8 +12,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "România Quiz AI",
-  description: "Aplicație educațională pentru pregătirea BAC cu întrebări specifice fiecărui județ din România",
+  title: "GeoBacAI - Geografia României",
+  description: "Aplicație educațională pentru pregătirea BAC la Geografie cu întrebări specifice fiecărui județ din România",
   icons: {
     icon: "/favicon.ico",
   },

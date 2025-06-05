@@ -23,9 +23,9 @@ export default function Navbar() {
               onClick={resetQuiz}
             >
               <div className="w-10 h-10 rounded-full overflow-hidden mr-3 flex items-center justify-center bg-gradient-to-r from-[#002B7F] via-[#FCD116] to-[#CE1126]">
-                <span className="text-white font-bold text-lg drop-shadow-sm">RQ</span>
+                <span className="text-white font-bold text-lg drop-shadow-sm">GB</span>
               </div>
-              <span className="text-xl font-bold text-slate-800 tracking-tight">România Quiz AI</span>
+              <span className="text-xl font-bold text-slate-800 tracking-tight">GeoBacAI</span>
             </Link>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <Link
@@ -36,27 +36,21 @@ export default function Navbar() {
                 Acasă
               </Link>
               <Link
+                href="/game"
+                className="border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+              >
+                🎮 Joc Geografie
+              </Link>
+              <Link
                 href="/comparator"
                 className="border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >
                 Comparator Regiuni
               </Link>
+
               <Link
-                href="/explorare-interactiva"
+                href="/despre"
                 className="border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-              >
-                Explorare Interactivă
-              </Link>
-              <Link
-                href="/tur-relief"
-                className="border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-              >
-                Tur Interactiv Relief
-              </Link>
-              <Link
-                href="#"
-                className="border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                onClick={(e) => e.preventDefault()}
               >
                 Despre Proiect
               </Link>
@@ -123,30 +117,24 @@ export default function Navbar() {
               Acasă
             </Link>
             <Link
+              href="/game"
+              className="border-transparent text-slate-600 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              🎮 Joc Geografie
+            </Link>
+            <Link
               href="/comparator"
               className="border-transparent text-slate-600 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
               Comparator Regiuni
             </Link>
+
             <Link
-              href="/explorare-interactiva"
+              href="/despre"
               className="border-transparent text-slate-600 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
               onClick={() => setIsMenuOpen(false)}
-            >
-              Explorare Interactivă
-            </Link>
-            <Link
-              href="/tur-relief"
-              className="border-transparent text-slate-600 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Tur Interactiv Relief
-            </Link>
-            <Link
-              href="#"
-              className="border-transparent text-slate-600 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-              onClick={(e) => { e.preventDefault(); setIsMenuOpen(false); }}
             >
               Despre Proiect
             </Link>

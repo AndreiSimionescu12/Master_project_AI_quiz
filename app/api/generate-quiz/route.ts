@@ -16,6 +16,8 @@ export async function POST(request: Request) {
     }
 
     const apiKey = process.env.GOOGLE_AI_API_KEY;
+    console.log("API Key găsită:", !!apiKey, "lungime:", apiKey?.length);
+    
     if (!apiKey) {
       return NextResponse.json(
         { error: "Configurare API incompletă" },
@@ -51,78 +53,95 @@ export async function POST(request: Request) {
 
     console.log("Se trimite cerere către Google AI...");
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          contents: [{
-            parts: [{
-              text: prompt
-            }]
-          }],
-          generationConfig: {
-            temperature: 0.7,
-            maxOutputTokens: 2048,
-            topP: 0.8,
-            topK: 40
-          }
-        })
-      }
-    );
+    try {
+      const response = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            contents: [{
+              parts: [{
+                text: prompt
+              }]
+            }],
+            generationConfig: {
+              temperature: 0.7,
+              maxOutputTokens: 2048,
+              topP: 0.8,
+              topK: 40
+            }
+          })
+        }
+      );
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      console.error("Răspuns negativ de la Google AI:", {
-        status: response.status,
-        statusText: response.statusText,
-        body: errorText
+      console.log("Status răspuns Google AI:", response.status, response.statusText);
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        console.error("Răspuns negativ de la Google AI:", {
+          status: response.status,
+          statusText: response.statusText,
+          body: errorText
+        });
+        
+        return NextResponse.json(
+          { 
+            error: "Serviciul de generare întrebări nu este disponibil momentan",
+            details: errorText
+          },
+          { status: 503 }
+        );
+      }
+
+      const data = await response.json();
+      console.log("Răspuns primit de la Google AI:", {
+        status: "success",
+        hasContent: !!data?.candidates?.[0]?.content,
+        candidatesLength: data?.candidates?.length
       });
+
+      if (!data?.candidates?.[0]?.content?.parts?.[0]?.text) {
+        console.error("Răspuns invalid de la Google AI:", JSON.stringify(data));
+        return NextResponse.json(
+          { 
+            error: "Răspuns invalid de la serviciul AI",
+            details: JSON.stringify(data)
+          },
+          { status: 500 }
+        );
+      }
+
+      const text = data.candidates[0].content.parts[0].text;
+      console.log("Text primit de la AI (primele 200 caractere):", text.substring(0, 200));
       
+      const questions = parseQuizQuestions(text);
+      console.log("Întrebări parsate cu succes:", questions.length);
+
+      if (questions.length === 0) {
+        console.error("Nu s-au putut extrage întrebări din răspuns:", text.substring(0, 200));
+        return NextResponse.json(
+          { 
+            error: "Nu s-au putut genera întrebări valide",
+            details: text.substring(0, 200)
+          },
+          { status: 422 }
+        );
+      }
+
+      return NextResponse.json({ questions });
+    } catch (fetchError) {
+      console.error("Eroare la cererea către Google AI:", fetchError);
       return NextResponse.json(
         { 
-          error: "Serviciul de generare întrebări nu este disponibil momentan",
-          details: errorText
+          error: "Eroare la comunicarea cu serviciul AI",
+          details: fetchError instanceof Error ? fetchError.message : "Eroare necunoscută"
         },
         { status: 503 }
       );
     }
-
-    const data = await response.json();
-    console.log("Răspuns primit de la Google AI:", {
-      status: "success",
-      hasContent: !!data?.candidates?.[0]?.content
-    });
-
-    if (!data?.candidates?.[0]?.content?.parts?.[0]?.text) {
-      console.error("Răspuns invalid de la Google AI:", JSON.stringify(data));
-      return NextResponse.json(
-        { 
-          error: "Răspuns invalid de la serviciul AI",
-          details: JSON.stringify(data)
-        },
-        { status: 500 }
-      );
-    }
-
-    const text = data.candidates[0].content.parts[0].text;
-    const questions = parseQuizQuestions(text);
-
-    if (questions.length === 0) {
-      console.error("Nu s-au putut extrage întrebări din răspuns:", text.substring(0, 200));
-      return NextResponse.json(
-        { 
-          error: "Nu s-au putut genera întrebări valide",
-          details: text.substring(0, 200)
-        },
-        { status: 422 }
-      );
-    }
-
-    return NextResponse.json({ questions });
   } catch (error: any) {
     console.error("Eroare server:", error);
     return NextResponse.json(
